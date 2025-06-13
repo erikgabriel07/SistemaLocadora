@@ -1,0 +1,310 @@
+<NotepadPlus>
+    <Project name="ProjetoJava">
+        <Folder name="locadora">
+            <Folder name="src">
+                <Folder name="main">
+                    <Folder name="java">
+                        <Folder name="com">
+                            <Folder name="locadora">
+                                <Folder name="project">
+                                    <Folder name="controller">
+                                        <File name="src\main\java\com\locadora\project\controller\AtorController.java" />
+                                        <File name="src\main\java\com\locadora\project\controller\AtorFilmeController.java" />
+                                        <File name="src\main\java\com\locadora\project\controller\ClienteController.java" />
+                                        <File name="src\main\java\com\locadora\project\controller\DependenteController.java" />
+                                        <File name="src\main\java\com\locadora\project\controller\DiretorSecundarioController.java" />
+                                        <File name="src\main\java\com\locadora\project\controller\FilmeController.java" />
+                                        <File name="src\main\java\com\locadora\project\controller\FilmeDiretorSecundarioController.java" />
+                                        <File name="src\main\java\com\locadora\project\controller\FilmeFitaController.java" />
+                                        <File name="src\main\java\com\locadora\project\controller\FilmeLocalController.java" />
+                                        <File name="src\main\java\com\locadora\project\controller\FitaController.java" />
+                                        <File name="src\main\java\com\locadora\project\controller\FitaLocacaoController.java" />
+                                        <File name="src\main\java\com\locadora\project\controller\LocacaoController.java" />
+                                        <File name="src\main\java\com\locadora\project\controller\LocalController.java" />
+                                    </Folder>
+                                    <Folder name="dao">
+                                        <File name="src\main\java\com\locadora\project\dao\AtorDAO.java" />
+                                        <File name="src\main\java\com\locadora\project\dao\AtorFilmeDAO.java" />
+                                        <File name="src\main\java\com\locadora\project\dao\ClienteDAO.java" />
+                                        <File name="src\main\java\com\locadora\project\dao\DependenteDAO.java" />
+                                        <File name="src\main\java\com\locadora\project\dao\DiretorSecundarioDAO.java" />
+                                        <File name="src\main\java\com\locadora\project\dao\FilmeDAO.java" />
+                                        <File name="src\main\java\com\locadora\project\dao\FilmeDiretorSecundarioDAO.java" />
+                                        <File name="src\main\java\com\locadora\project\dao\FilmeFitaDAO.java" />
+                                        <File name="src\main\java\com\locadora\project\dao\FilmeLocalDAO.java" />
+                                        <File name="src\main\java\com\locadora\project\dao\FitaDAO.java" />
+                                        <File name="src\main\java\com\locadora\project\dao\FitaLocacaoDAO.java" />
+                                        <File name="src\main\java\com\locadora\project\dao\GenericDAO.java" />
+                                        <File name="src\main\java\com\locadora\project\dao\LocacaoDAO.java" />
+                                        <File name="src\main\java\com\locadora\project\dao\LocalDAO.java" />
+                                    </Folder>
+                                    <Folder name="dto">
+                                        <File name="src\main\java\com\locadora\project\dto\AtorDTO.java" />
+                                        <File name="src\main\java\com\locadora\project\dto\AtorFilmeDTO.java" />
+                                        <File name="src\main\java\com\locadora\project\dto\ClienteDTO.java" />
+                                        <File name="src\main\java\com\locadora\project\dto\DependenteDTO.java" />
+                                        <File name="src\main\java\com\locadora\project\dto\DiretorSecundarioDTO.java" />
+                                        <File name="src\main\java\com\locadora\project\dto\FilmeDiretorSecundarioDTO.java" />
+                                        <File name="src\main\java\com\locadora\project\dto\FilmeDTO.java" />
+                                        <File name="src\main\java\com\locadora\project\dto\FilmeFitaDTO.java" />
+                                        <File name="src\main\java\com\locadora\project\dto\FilmeLocalDTO.java" />
+                                        <File name="src\main\java\com\locadora\project\dto\FitaDTO.java" />
+                                        <File name="src\main\java\com\locadora\project\dto\FitaLocacaoDTO.java" />
+                                        <File name="src\main\java\com\locadora\project\dto\LocacaoDTO.java" />
+                                        <File name="src\main\java\com\locadora\project\dto\LocalDTO.java" />
+                                    </Folder>
+                                    <Folder name="model">
+                                        <File name="src\main\java\com\locadora\project\model\Ator.java" />
+                                        <File name="src\main\java\com\locadora\project\model\AtorFilme.java" />
+                                        <File name="src\main\java\com\locadora\project\model\Cliente.java" />
+                                        <File name="src\main\java\com\locadora\project\model\Dependente.java" />
+                                        <File name="src\main\java\com\locadora\project\model\DiretorSecundario.java" />
+                                        <File name="src\main\java\com\locadora\project\model\Filme.java" />
+                                        <File name="src\main\java\com\locadora\project\model\FilmeDiretorSecundario.java" />
+                                        <File name="src\main\java\com\locadora\project\model\FilmeFita.java" />
+                                        <File name="src\main\java\com\locadora\project\model\FilmeLocal.java" />
+                                        <File name="src\main\java\com\locadora\project\model\Fita.java" />
+                                        <File name="src\main\java\com\locadora\project\model\FitaLocacao.java" />
+                                        <File name="src\main\java\com\locadora\project\model\Locacao.java" />
+                                        <File name="src\main\java\com\locadora\project\model\Local.java" />
+                                    </Folder>
+                                    <Folder name="services">
+                                        <File name="src\main\java\com\locadora\project\services\AtorFilmeService.java" />
+                                        <File name="src\main\java\com\locadora\project\services\AtorService.java" />
+                                        <File name="src\main\java\com\locadora\project\services\ClienteService.java" />
+                                        <File name="src\main\java\com\locadora\project\services\DependenteService.java" />
+                                        <File name="src\main\java\com\locadora\project\services\DiretorSecundarioService.java" />
+                                        <File name="src\main\java\com\locadora\project\services\FilmeDiretorSecundarioService.java" />
+                                        <File name="src\main\java\com\locadora\project\services\FilmeFitaService.java" />
+                                        <File name="src\main\java\com\locadora\project\services\FilmeLocalService.java" />
+                                        <File name="src\main\java\com\locadora\project\services\FilmeService.java" />
+                                        <File name="src\main\java\com\locadora\project\services\FitaLocacaoService.java" />
+                                        <File name="src\main\java\com\locadora\project\services\FitaService.java" />
+                                        <File name="src\main\java\com\locadora\project\services\LocacaoService.java" />
+                                        <File name="src\main\java\com\locadora\project\services\LocalService.java" />
+                                    </Folder>
+                                    <Folder name="util">
+                                        <File name="src\main\java\com\locadora\project\util\Groups.java" />
+                                        <File name="src\main\java\com\locadora\project\util\HibernateUtil.java" />
+                                        <File name="src\main\java\com\locadora\project\util\IOperations.java" />
+                                        <File name="src\main\java\com\locadora\project\util\ObjectFactory.java" />
+                                        <File name="src\main\java\com\locadora\project\util\ValidatorUtil.java" />
+                                        <File name="src\main\java\com\locadora\project\util\ConsoleUtil.java" />
+                                        <File name="src\main\java\com\locadora\project\util\ControllerUtil.java" />
+                                    </Folder>
+                                    <File name="src\main\java\com\locadora\project\App.java" />
+                                </Folder>
+                            </Folder>
+                        </Folder>
+                    </Folder>
+                    <Folder name="resources">
+                        <File name="src\main\resources\hibernate.cfg.xml" />
+                    </Folder>
+                </Folder>
+                <Folder name="test">
+                    <Folder name="java">
+                        <Folder name="com">
+                            <Folder name="locadora">
+                                <Folder name="project">
+                                    <File name="src\test\java\com\locadora\project\AppTest.java" />
+                                    <File name="src\test\java\com\locadora\project\AtorFilmeTest.java" />
+                                    <File name="src\test\java\com\locadora\project\AtorTest.java" />
+                                    <File name="src\test\java\com\locadora\project\ClienteTest.java" />
+                                    <File name="src\test\java\com\locadora\project\DependenteTest.java" />
+                                    <File name="src\test\java\com\locadora\project\DiretorSecundarioTest.java" />
+                                    <File name="src\test\java\com\locadora\project\FilmeDiretorSecundarioTest.java" />
+                                    <File name="src\test\java\com\locadora\project\FilmeFitaTest.java" />
+                                    <File name="src\test\java\com\locadora\project\FilmeLocalTest.java" />
+                                    <File name="src\test\java\com\locadora\project\FilmeTest.java" />
+                                    <File name="src\test\java\com\locadora\project\FitaLocacaoTest.java" />
+                                    <File name="src\test\java\com\locadora\project\FitaTest.java" />
+                                    <File name="src\test\java\com\locadora\project\LocacaoTest.java" />
+                                    <File name="src\test\java\com\locadora\project\LocalTest.java" />
+                                </Folder>
+                            </Folder>
+                        </Folder>
+                    </Folder>
+                    <Folder name="resources">
+                        <File name="src\test\resources\hibernate.cfg.test.xml" />
+                        <File name="src\test\resources\logging.properties" />
+                    </Folder>
+                </Folder>
+            </Folder>
+            <Folder name="target">
+                <Folder name="classes">
+                    <Folder name="com">
+                        <Folder name="locadora">
+                            <Folder name="project">
+                                <Folder name="controller">
+                                    <File name="target\classes\com\locadora\project\controller\AtorController.class" />
+                                    <File name="target\classes\com\locadora\project\controller\AtorFilmeController.class" />
+                                    <File name="target\classes\com\locadora\project\controller\ClienteController.class" />
+                                    <File name="target\classes\com\locadora\project\controller\DependenteController.class" />
+                                    <File name="target\classes\com\locadora\project\controller\DiretorSecundarioController.class" />
+                                    <File name="target\classes\com\locadora\project\controller\FilmeController.class" />
+                                    <File name="target\classes\com\locadora\project\controller\FilmeDiretorSecundarioController.class" />
+                                    <File name="target\classes\com\locadora\project\controller\FilmeFitaController.class" />
+                                    <File name="target\classes\com\locadora\project\controller\FilmeLocalController.class" />
+                                    <File name="target\classes\com\locadora\project\controller\FitaController.class" />
+                                    <File name="target\classes\com\locadora\project\controller\FitaLocacaoController.class" />
+                                    <File name="target\classes\com\locadora\project\controller\LocacaoController.class" />
+                                    <File name="target\classes\com\locadora\project\controller\LocalController.class" />
+                                </Folder>
+                                <Folder name="dao">
+                                    <File name="target\classes\com\locadora\project\dao\AtorDAO.class" />
+                                    <File name="target\classes\com\locadora\project\dao\AtorFilmeDAO.class" />
+                                    <File name="target\classes\com\locadora\project\dao\ClienteDAO.class" />
+                                    <File name="target\classes\com\locadora\project\dao\DependenteDAO.class" />
+                                    <File name="target\classes\com\locadora\project\dao\DiretorSecundarioDAO.class" />
+                                    <File name="target\classes\com\locadora\project\dao\FilmeDAO.class" />
+                                    <File name="target\classes\com\locadora\project\dao\FilmeDiretorSecundarioDAO.class" />
+                                    <File name="target\classes\com\locadora\project\dao\FilmeFitaDAO.class" />
+                                    <File name="target\classes\com\locadora\project\dao\FilmeLocalDAO.class" />
+                                    <File name="target\classes\com\locadora\project\dao\FitaDAO.class" />
+                                    <File name="target\classes\com\locadora\project\dao\FitaLocacaoDAO.class" />
+                                    <File name="target\classes\com\locadora\project\dao\GenericDAO.class" />
+                                    <File name="target\classes\com\locadora\project\dao\LocacaoDAO.class" />
+                                    <File name="target\classes\com\locadora\project\dao\LocalDAO.class" />
+                                </Folder>
+                                <Folder name="dto">
+                                    <File name="target\classes\com\locadora\project\dto\AtorDTO.class" />
+                                    <File name="target\classes\com\locadora\project\dto\AtorFilmeDTO.class" />
+                                    <File name="target\classes\com\locadora\project\dto\ClienteDTO.class" />
+                                    <File name="target\classes\com\locadora\project\dto\DependenteDTO.class" />
+                                    <File name="target\classes\com\locadora\project\dto\DiretorSecundarioDTO.class" />
+                                    <File name="target\classes\com\locadora\project\dto\FilmeDiretorSecundarioDTO.class" />
+                                    <File name="target\classes\com\locadora\project\dto\FilmeDTO.class" />
+                                    <File name="target\classes\com\locadora\project\dto\FilmeFitaDTO.class" />
+                                    <File name="target\classes\com\locadora\project\dto\FilmeLocalDTO.class" />
+                                    <File name="target\classes\com\locadora\project\dto\FitaDTO.class" />
+                                    <File name="target\classes\com\locadora\project\dto\FitaLocacaoDTO.class" />
+                                    <File name="target\classes\com\locadora\project\dto\LocacaoDTO.class" />
+                                    <File name="target\classes\com\locadora\project\dto\LocalDTO.class" />
+                                </Folder>
+                                <Folder name="model">
+                                    <File name="target\classes\com\locadora\project\model\Ator.class" />
+                                    <File name="target\classes\com\locadora\project\model\AtorFilme.class" />
+                                    <File name="target\classes\com\locadora\project\model\Cliente.class" />
+                                    <File name="target\classes\com\locadora\project\model\Dependente.class" />
+                                    <File name="target\classes\com\locadora\project\model\DiretorSecundario.class" />
+                                    <File name="target\classes\com\locadora\project\model\Filme.class" />
+                                    <File name="target\classes\com\locadora\project\model\FilmeDiretorSecundario.class" />
+                                    <File name="target\classes\com\locadora\project\model\FilmeFita.class" />
+                                    <File name="target\classes\com\locadora\project\model\FilmeLocal.class" />
+                                    <File name="target\classes\com\locadora\project\model\Fita.class" />
+                                    <File name="target\classes\com\locadora\project\model\FitaLocacao.class" />
+                                    <File name="target\classes\com\locadora\project\model\Locacao.class" />
+                                    <File name="target\classes\com\locadora\project\model\Local.class" />
+                                </Folder>
+                                <Folder name="services">
+                                    <File name="target\classes\com\locadora\project\services\AtorFilmeService.class" />
+                                    <File name="target\classes\com\locadora\project\services\AtorService.class" />
+                                    <File name="target\classes\com\locadora\project\services\ClienteService.class" />
+                                    <File name="target\classes\com\locadora\project\services\DependenteService.class" />
+                                    <File name="target\classes\com\locadora\project\services\DiretorSecundarioService.class" />
+                                    <File name="target\classes\com\locadora\project\services\FilmeDiretorSecundarioService.class" />
+                                    <File name="target\classes\com\locadora\project\services\FilmeFitaService.class" />
+                                    <File name="target\classes\com\locadora\project\services\FilmeLocalService.class" />
+                                    <File name="target\classes\com\locadora\project\services\FilmeService.class" />
+                                    <File name="target\classes\com\locadora\project\services\FitaLocacaoService.class" />
+                                    <File name="target\classes\com\locadora\project\services\FitaService.class" />
+                                    <File name="target\classes\com\locadora\project\services\LocacaoService.class" />
+                                    <File name="target\classes\com\locadora\project\services\LocalService.class" />
+                                </Folder>
+                                <Folder name="util">
+                                    <File name="target\classes\com\locadora\project\util\Groups$OnCreate.class" />
+                                    <File name="target\classes\com\locadora\project\util\Groups$OnUpdate.class" />
+                                    <File name="target\classes\com\locadora\project\util\Groups.class" />
+                                    <File name="target\classes\com\locadora\project\util\HibernateUtil.class" />
+                                    <File name="target\classes\com\locadora\project\util\IOperations.class" />
+                                    <File name="target\classes\com\locadora\project\util\ObjectFactory.class" />
+                                    <File name="target\classes\com\locadora\project\util\ValidatorUtil.class" />
+                                </Folder>
+                                <File name="target\classes\com\locadora\project\App.class" />
+                            </Folder>
+                        </Folder>
+                    </Folder>
+                    <File name="target\classes\hibernate.cfg.xml" />
+                </Folder>
+                <Folder name="generated-sources">
+                    <Folder name="annotations" />
+                </Folder>
+                <Folder name="generated-test-sources">
+                    <Folder name="test-annotations" />
+                </Folder>
+                <Folder name="maven-status">
+                    <Folder name="maven-compiler-plugin">
+                        <Folder name="compile">
+                            <Folder name="default-compile">
+                                <File name="target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" />
+                                <File name="target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" />
+                            </Folder>
+                        </Folder>
+                        <Folder name="testCompile">
+                            <Folder name="default-testCompile">
+                                <File name="target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst" />
+                                <File name="target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst" />
+                            </Folder>
+                        </Folder>
+                    </Folder>
+                </Folder>
+                <Folder name="surefire-reports">
+                    <File name="target\surefire-reports\com.locadora.project.AtorFilmeTest.txt" />
+                    <File name="target\surefire-reports\com.locadora.project.AtorTest.txt" />
+                    <File name="target\surefire-reports\com.locadora.project.ClienteTest.txt" />
+                    <File name="target\surefire-reports\com.locadora.project.DependenteTest.txt" />
+                    <File name="target\surefire-reports\com.locadora.project.DiretorSecundarioTest.txt" />
+                    <File name="target\surefire-reports\com.locadora.project.FilmeDiretorSecundarioTest.txt" />
+                    <File name="target\surefire-reports\com.locadora.project.FilmeFitaTest.txt" />
+                    <File name="target\surefire-reports\com.locadora.project.FilmeLocalTest.txt" />
+                    <File name="target\surefire-reports\com.locadora.project.FilmeTest.txt" />
+                    <File name="target\surefire-reports\com.locadora.project.FitaLocacaoTest.txt" />
+                    <File name="target\surefire-reports\com.locadora.project.FitaTest.txt" />
+                    <File name="target\surefire-reports\com.locadora.project.LocacaoTest.txt" />
+                    <File name="target\surefire-reports\com.locadora.project.LocalTest.txt" />
+                    <File name="target\surefire-reports\TEST-com.locadora.project.AtorFilmeTest.xml" />
+                    <File name="target\surefire-reports\TEST-com.locadora.project.AtorTest.xml" />
+                    <File name="target\surefire-reports\TEST-com.locadora.project.ClienteTest.xml" />
+                    <File name="target\surefire-reports\TEST-com.locadora.project.DependenteTest.xml" />
+                    <File name="target\surefire-reports\TEST-com.locadora.project.DiretorSecundarioTest.xml" />
+                    <File name="target\surefire-reports\TEST-com.locadora.project.FilmeDiretorSecundarioTest.xml" />
+                    <File name="target\surefire-reports\TEST-com.locadora.project.FilmeFitaTest.xml" />
+                    <File name="target\surefire-reports\TEST-com.locadora.project.FilmeLocalTest.xml" />
+                    <File name="target\surefire-reports\TEST-com.locadora.project.FilmeTest.xml" />
+                    <File name="target\surefire-reports\TEST-com.locadora.project.FitaLocacaoTest.xml" />
+                    <File name="target\surefire-reports\TEST-com.locadora.project.FitaTest.xml" />
+                    <File name="target\surefire-reports\TEST-com.locadora.project.LocacaoTest.xml" />
+                    <File name="target\surefire-reports\TEST-com.locadora.project.LocalTest.xml" />
+                </Folder>
+                <Folder name="test-classes">
+                    <Folder name="com">
+                        <Folder name="locadora">
+                            <Folder name="project">
+                                <File name="target\test-classes\com\locadora\project\AppTest.class" />
+                                <File name="target\test-classes\com\locadora\project\AtorFilmeTest.class" />
+                                <File name="target\test-classes\com\locadora\project\AtorTest.class" />
+                                <File name="target\test-classes\com\locadora\project\ClienteTest.class" />
+                                <File name="target\test-classes\com\locadora\project\DependenteTest.class" />
+                                <File name="target\test-classes\com\locadora\project\DiretorSecundarioTest.class" />
+                                <File name="target\test-classes\com\locadora\project\FilmeDiretorSecundarioTest.class" />
+                                <File name="target\test-classes\com\locadora\project\FilmeFitaTest.class" />
+                                <File name="target\test-classes\com\locadora\project\FilmeLocalTest.class" />
+                                <File name="target\test-classes\com\locadora\project\FilmeTest.class" />
+                                <File name="target\test-classes\com\locadora\project\FitaLocacaoTest.class" />
+                                <File name="target\test-classes\com\locadora\project\FitaTest.class" />
+                                <File name="target\test-classes\com\locadora\project\LocacaoTest.class" />
+                                <File name="target\test-classes\com\locadora\project\LocalTest.class" />
+                            </Folder>
+                        </Folder>
+                    </Folder>
+                    <File name="target\test-classes\hibernate.cfg.test.xml" />
+                    <File name="target\test-classes\logging.properties" />
+                </Folder>
+            </Folder>
+            <File name=".gitignore" />
+            <File name="pom.xml" />
+            <File name="run_tests.bat" />
+            <File name="Workspace" />
+        </Folder>
+    </Project>
+</NotepadPlus>

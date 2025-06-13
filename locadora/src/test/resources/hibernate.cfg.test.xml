@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+
+		<!-- Driver e URL para banco em memória -->
+		<property name="hibernate.connection.driver_class">org.h2.Driver</property>
+		<property name="hibernate.connection.url">jdbc:h2:mem:locadora;DB_CLOSE_DELAY=-1;DATABASE_TO_UPPER=false</property>
+
+		<!-- Usuário e senha -->
+		<property name="hibernate.connection.username">sa</property>
+		<property name="hibernate.connection.password"></property>
+
+		<!-- Dialeto do H2 -->
+		<property name="hibernate.dialect">org.hibernate.dialect.H2Dialect</property>
+
+		<!-- Mostrar as queries no console -->
+		<property name="hibernate.show_sql">false</property>
+		<property name="hibernate.format_sql">false</property>
+
+		<!-- Atualizar ou criar as tabelas automaticamente -->
+		<property name="hibernate.hbm2ddl.auto">create-drop</property>
+		
+		<!-- Entidades -->
+		<mapping class="com.locadora.project.model.Ator"/>
+		<mapping class="com.locadora.project.model.AtorFilme"/>
+		<mapping class="com.locadora.project.model.Cliente"/>
+		<mapping class="com.locadora.project.model.Dependente"/>
+		<mapping class="com.locadora.project.model.DiretorSecundario"/>
+		<mapping class="com.locadora.project.model.Filme"/>
+		<mapping class="com.locadora.project.model.FilmeDiretorSecundario"/>
+		<mapping class="com.locadora.project.model.FilmeFita"/>
+		<mapping class="com.locadora.project.model.FilmeLocal"/>
+		<mapping class="com.locadora.project.model.Fita"/>
+		<mapping class="com.locadora.project.model.FitaLocacao"/>
+		<mapping class="com.locadora.project.model.Locacao"/>
+		<mapping class="com.locadora.project.model.Local"/>
+
+	</session-factory>
+</hibernate-configuration>
